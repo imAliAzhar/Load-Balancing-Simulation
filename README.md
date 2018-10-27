@@ -129,5 +129,6 @@ LJF 2.
 
 ### 3 Screenshot
 
+![screenshot](https://github.com/imAliAzhar/Load-Balancing-Simulation/blob/master/capture.png)
 Red Nodes represent busy workers.
 
