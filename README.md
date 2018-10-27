@@ -2,21 +2,21 @@
 
 ### Contents
 
-- 1 Code Structure
+- 1. Code Structure
    - 1.1 Data
    - 1.2 Messages
    - 1.3 Modules
    - 1.4 Objects
-- 2 Analysis of Scheduling Algorithms
+- 2. Analysis of Scheduling Algorithms
    - 2.1 FCFS
    - 2.2 RSW
    - 2.3 SJB
    - 2.4 LJB
    - 2.5 Comparison
-- 3 Screenshot
+- 3. Screenshot
 
 
-### 1 Code Structure
+### 1. Code Structure
 
 To understand how the simulation works, please first have a look at the code
 structure:
@@ -82,7 +82,7 @@ The Objects folder contains Node and Task classes. They simply act as a
 wrapper around MIPS, Storage and RAM properties. The Node class also
 contains pointer to it’s cModule.
 
-### 2 Analysis of Scheduling Algorithms
+### 2. Analysis of Scheduling Algorithms
 
 Efficiency of algorithms is measured by averaging the time taken by all
 processes since their initialization to their completion.
@@ -119,15 +119,14 @@ the average either. Again, I think this is because of the small number of tasks.
 
 #### 2.5 Comparison
 
-```
-Algorithm Average Completion Time
-Naive FCFS 3.
-RSW 2.
-SJF 2.
-LJF 2.
-```
+| Algorithm | Average Completion Time |
+|-----------|-------------------------|
+| Naive FCFS| 3.98086                 |
+| RSW       | 2.91235                 |
+| SJF       | 2.91235                 |
+| LJF       | 2.91235                 |
 
-### 3 Screenshot
+### 3. Screenshot
 
 ![screenshot](https://github.com/imAliAzhar/Load-Balancing-Simulation/blob/master/capture.png)
 Red Nodes represent busy workers.
