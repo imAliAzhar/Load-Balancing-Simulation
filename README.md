@@ -2,18 +2,18 @@
 
 ### Contents
 
-- 1. Code Structure
+- 1 Code Structure
    - 1.1 Data
    - 1.2 Messages
    - 1.3 Modules
    - 1.4 Objects
-- 2. Analysis of Scheduling Algorithms
+- 2 Analysis of Scheduling Algorithms
    - 2.1 FCFS
    - 2.2 RSW
    - 2.3 SJB
    - 2.4 LJB
    - 2.5 Comparison
-- 3. Screenshot
+- 3 Screenshot
 
 
 ### 1. Code Structure
@@ -129,5 +129,6 @@ the average either. Again, I think this is because of the small number of tasks.
 ### 3. Screenshot
 
 ![screenshot](https://github.com/imAliAzhar/Load-Balancing-Simulation/blob/master/capture.png)
+___
 Red Nodes represent busy workers.
 
