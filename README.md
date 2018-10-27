@@ -20,6 +20,7 @@
 
 To understand how the simulation works, please first have a look at the code
 structure:
+'''bash
 .
 |-- Data
 |   |-- nodes
@@ -48,7 +49,7 @@ structure:
 |       |-- Task.cc
 |       `-- Task.h
 `-- package.ned
-
+'''
 #### 1.1 Data
 
 The Data folder contains information about the nodes and tasks. These files
